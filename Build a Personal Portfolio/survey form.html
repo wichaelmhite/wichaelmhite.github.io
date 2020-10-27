@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    
+    <h1 id="title">Psychological Survey</h1>
+    <p id="description">This is a brief psychological survey to determine whether or not we should continue with your treatment.</p>
+    
+    <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" required placeholder="John Doe"> 
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" required placeholder="example@example.com"> 
+        <label for="number" id="number-label">Please enter your age.</label>
+        <input type="number" id="number" min=18 max=99 placeholder="43">
+        
+        <br>
+        <br>
+        
+        <label for="service">Please select your service.</label>
+        <select name="service" id="dropdown">
+            <option value="psychotherapy">Psychotherapy</option>
+            <option value="medication-management">Medication Management</option>
+            <option value="assessment">Assessment</option>
+            
+            
+        </select>
+        <label for="gender">Please select your gender.</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type ="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        
+        <br>
+        <br>
+        
+        <label for="time">What time(s) work best for you?</label>
+        <input type="checkbox" id="time" name="time" value="mornings">
+        <label for="mornings">Mornings</label>
+        <input type="checkbox" id="time" name="time" value="afternoons">
+        <label for="afternoons">Afternoon</label>
+        <input type="checkbox" id="time" name="time" value="evenings">
+        <label for="evenings">Evenings</label>
+        
+        <br>
+        <br>
+        
+        <label for="anything-else">Anything else?</label>
+        <textarea></textarea>
+        <input type="submit" value="Submit" id="submit">
+    
+    </form>
+
+</html>
