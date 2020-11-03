@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap');
+
+
+    /* Navbar background */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Navbar style */
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+    background-color:#E76F51;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+    border-radius: 25px;
+}
+    .navbar li{
+        display: inline;
+    }
+    
+    @media all{
+        body {
+            background-image: url("https://i.ibb.co/1qrVQjQ/dark-paths.png");
+        }
+    }
+
+/* Hover */
+.navbar a:hover {
+  background-color: #fa9981;
+  color: black;
+}
+
+    .navbar{
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        float: left;
+        list-style-type: none;
+        }
+    
+    #welcome-section {
+        height: 100vh;
+    }
+    
+    h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 45px;
+        color: #2A9D8F;
+        
+    }
+    a {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        color: #F4A261;
+    }
+    
+    header {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+        color: #E9C46A;
+        text-align: center;
+        
+    }
+    
+    .main-header{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 100px;
+        text-align: center;
+        background: -webkit-linear-gradient(#F4A261, #E76F51);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+        
+    }
+    .mini-header{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50px;
+        text-align: center;
+        background: -webkit-linear-gradient(#F4A261, #E76F51);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;   
+    }
+    
+    .center-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
